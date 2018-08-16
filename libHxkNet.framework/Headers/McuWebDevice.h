@@ -23,8 +23,8 @@
 //
 -(void) deviceList:(NSArray*) devList;
 -(void) removeDevice:(NSString*)del_caid :(NSString*) del_uuid;
--(void) deviceOnlineByCAID:(NSArray*) devList;
--(void) deviceOnlineByUUID:(NSArray*) devList;
+-(void) deviceOnlineByCAID:(NSArray*) lstUUID;
+-(void) deviceOnlineByUUID:(NSArray*) lstUUID;
 //
 -(void) getDevListFail:(NSString*)errMsg;
 -(void) removeDeviceFail:(NSString*)errMsg;
