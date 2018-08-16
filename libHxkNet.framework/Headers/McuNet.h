@@ -30,5 +30,7 @@ FOUNDATION_EXPORT const unsigned char McuNetVersionString[];
 #import "MSDUDP.h"
 #import "MSDService.h"
 #import "McuKeyGen.h"
+#import "HxkWebProc.h"
+#import "McuWebDevice.h"
 
 #endif /* _McuNet_h */

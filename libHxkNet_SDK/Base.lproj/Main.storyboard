@@ -262,17 +262,17 @@
             </objects>
             <point key="canvasLocation" x="1938" y="1046"/>
         </scene>
-        <!--View Controller-->
+        <!--WebDeviceList-->
         <scene sceneID="Cps-ar-1qv">
             <objects>
-                <viewController id="wye-BB-Kee" sceneMemberID="viewController">
+                <viewController id="wye-BB-Kee" customClass="WebDeviceList" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b1O-Vg-XWk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="5EI-mQ-LId"/>
                     </view>
-                    <navigationItem key="navigationItem" id="wkj-j8-wrn"/>
+                    <navigationItem key="navigationItem" title="WebDeviceList" id="wkj-j8-wrn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fDu-Tl-IGI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -294,17 +294,17 @@
             </objects>
             <point key="canvasLocation" x="1697" y="-621"/>
         </scene>
-        <!--View Controller-->
+        <!--WebDataRequest-->
         <scene sceneID="gFi-zw-OZQ">
             <objects>
-                <viewController id="9LK-md-YB9" sceneMemberID="viewController">
+                <viewController id="9LK-md-YB9" customClass="WebDataRequest" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DUt-hH-PkR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="T4Q-Cr-zZe"/>
                     </view>
-                    <navigationItem key="navigationItem" id="vYH-4o-vBc"/>
+                    <navigationItem key="navigationItem" title="WebDataRequest" id="vYH-4o-vBc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TRp-63-J1m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

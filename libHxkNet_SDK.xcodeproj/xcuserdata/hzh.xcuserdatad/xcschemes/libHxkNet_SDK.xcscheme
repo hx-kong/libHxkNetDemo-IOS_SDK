@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "389775F42124938500FB3549"
-               BuildableName = "libHxkNet_SDK_Demo.app"
-               BlueprintName = "libHxkNet_SDK_Demo"
-               ReferencedContainer = "container:libHxkNet_SDK_Demo.xcodeproj">
+               BuildableName = "libHxkNet_SDK.app"
+               BlueprintName = "libHxkNet_SDK"
+               ReferencedContainer = "container:libHxkNet_SDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3897760C2124938500FB3549"
-               BuildableName = "libHxkNet_SDK_DemoTests.xctest"
-               BlueprintName = "libHxkNet_SDK_DemoTests"
-               ReferencedContainer = "container:libHxkNet_SDK_Demo.xcodeproj">
+               BuildableName = "libHxkNet_SDKTests.xctest"
+               BlueprintName = "libHxkNet_SDKTests"
+               ReferencedContainer = "container:libHxkNet_SDK.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "389775F42124938500FB3549"
-            BuildableName = "libHxkNet_SDK_Demo.app"
-            BlueprintName = "libHxkNet_SDK_Demo"
-            ReferencedContainer = "container:libHxkNet_SDK_Demo.xcodeproj">
+            BuildableName = "libHxkNet_SDK.app"
+            BlueprintName = "libHxkNet_SDK"
+            ReferencedContainer = "container:libHxkNet_SDK.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -68,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "389775F42124938500FB3549"
-            BuildableName = "libHxkNet_SDK_Demo.app"
-            BlueprintName = "libHxkNet_SDK_Demo"
-            ReferencedContainer = "container:libHxkNet_SDK_Demo.xcodeproj">
+            BuildableName = "libHxkNet_SDK.app"
+            BlueprintName = "libHxkNet_SDK"
+            ReferencedContainer = "container:libHxkNet_SDK.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -87,9 +87,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "389775F42124938500FB3549"
-            BuildableName = "libHxkNet_SDK_Demo.app"
-            BlueprintName = "libHxkNet_SDK_Demo"
-            ReferencedContainer = "container:libHxkNet_SDK_Demo.xcodeproj">
+            BuildableName = "libHxkNet_SDK.app"
+            BlueprintName = "libHxkNet_SDK"
+            ReferencedContainer = "container:libHxkNet_SDK.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

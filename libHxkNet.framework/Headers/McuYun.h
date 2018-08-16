@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "hxnet-protocol.h"
 
 //调度服务器的域名
 #define IOT_DEV_URL        "iot.d.hx-kong.com"

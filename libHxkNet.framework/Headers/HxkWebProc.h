@@ -29,8 +29,8 @@
 
 @property (nonatomic,assign) id<HxkWebPocDelegate> delegate;
 
--(void) sendData:(NSString*)url parameter:(NSString*)pram;
--(void) sendData:(NSString*)url parameter:(NSString*)pram cookies:(NSString*)cookie;
+-(void) requestData:(NSString*)url parameter:(NSString*)pram;
+-(void) requestData:(NSString*)url parameter:(NSString*)pram cookies:(NSString*)cookie;
 //获取纯UTF8内容的JSON结构DATA
 -(NSData*)getSafeJsonData:(NSData*)data;
 -(BOOL) isNotFoundPage:(NSString*)str;

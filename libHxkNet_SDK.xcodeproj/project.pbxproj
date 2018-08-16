@@ -14,7 +14,9 @@
 		389776052124938500FB3549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389776032124938500FB3549 /* LaunchScreen.storyboard */; };
 		389776082124938500FB3549 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 389776072124938500FB3549 /* main.m */; };
 		389776122124938500FB3549 /* libHxkNet_SDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 389776112124938500FB3549 /* libHxkNet_SDKTests.m */; };
-		3897764C2124A2A000FB3549 /* libHxkNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3897764B2124A2A000FB3549 /* libHxkNet.framework */; };
+		3899205B21256BA2009AD5AA /* WebDeviceList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3899205A21256BA2009AD5AA /* WebDeviceList.m */; };
+		3899206321256BF7009AD5AA /* WebDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3899206221256BF7009AD5AA /* WebDataRequest.m */; };
+		3899206821257F99009AD5AA /* libHxkNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3899206721257F98009AD5AA /* libHxkNet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		389775F52124938500FB3549 /* libHxkNet_SDK_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libHxkNet_SDK_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		389775F52124938500FB3549 /* libHxkNet_SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libHxkNet_SDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		389775F82124938500FB3549 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		389775F92124938500FB3549 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		389775FB2124938500FB3549 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -38,10 +40,14 @@
 		389776042124938500FB3549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		389776062124938500FB3549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		389776072124938500FB3549 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3897760D2124938500FB3549 /* libHxkNet_SDK_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libHxkNet_SDK_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3897760D2124938500FB3549 /* libHxkNet_SDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libHxkNet_SDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		389776112124938500FB3549 /* libHxkNet_SDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libHxkNet_SDKTests.m; sourceTree = "<group>"; };
 		389776132124938500FB3549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3897764B2124A2A000FB3549 /* libHxkNet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libHxkNet.framework; sourceTree = "<group>"; };
+		3899205921256BA2009AD5AA /* WebDeviceList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebDeviceList.h; sourceTree = "<group>"; };
+		3899205A21256BA2009AD5AA /* WebDeviceList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebDeviceList.m; sourceTree = "<group>"; };
+		3899206121256BF7009AD5AA /* WebDataRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebDataRequest.h; sourceTree = "<group>"; };
+		3899206221256BF7009AD5AA /* WebDataRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebDataRequest.m; sourceTree = "<group>"; };
+		3899206721257F98009AD5AA /* libHxkNet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libHxkNet.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3897764C2124A2A000FB3549 /* libHxkNet.framework in Frameworks */,
+				3899206821257F99009AD5AA /* libHxkNet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +72,7 @@
 		389775EC2124938500FB3549 = {
 			isa = PBXGroup;
 			children = (
+				3899206721257F98009AD5AA /* libHxkNet.framework */,
 				389775F72124938500FB3549 /* libHxkNet_SDK */,
 				389776102124938500FB3549 /* libHxkNet_SDKTests */,
 				389775F62124938500FB3549 /* Products */,
@@ -76,8 +83,8 @@
 		389775F62124938500FB3549 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				389775F52124938500FB3549 /* libHxkNet_SDK_Demo.app */,
-				3897760D2124938500FB3549 /* libHxkNet_SDK_DemoTests.xctest */,
+				389775F52124938500FB3549 /* libHxkNet_SDK.app */,
+				3897760D2124938500FB3549 /* libHxkNet_SDKTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,7 +118,6 @@
 		3897762E2124945B00FB3549 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3897764B2124A2A000FB3549 /* libHxkNet.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,6 +125,10 @@
 		3897764421249B7900FB3549 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				3899205921256BA2009AD5AA /* WebDeviceList.h */,
+				3899205A21256BA2009AD5AA /* WebDeviceList.m */,
+				3899206121256BF7009AD5AA /* WebDataRequest.h */,
+				3899206221256BF7009AD5AA /* WebDataRequest.m */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -126,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		389775F42124938500FB3549 /* libHxkNet_SDK_Demo */ = {
+		389775F42124938500FB3549 /* libHxkNet_SDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 389776162124938500FB3549 /* Build configuration list for PBXNativeTarget "libHxkNet_SDK_Demo" */;
+			buildConfigurationList = 389776162124938500FB3549 /* Build configuration list for PBXNativeTarget "libHxkNet_SDK" */;
 			buildPhases = (
 				389775F12124938500FB3549 /* Sources */,
 				389775F22124938500FB3549 /* Frameworks */,
@@ -138,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = libHxkNet_SDK_Demo;
+			name = libHxkNet_SDK;
 			productName = libHxkNet_SDK;
-			productReference = 389775F52124938500FB3549 /* libHxkNet_SDK_Demo.app */;
+			productReference = 389775F52124938500FB3549 /* libHxkNet_SDK.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3897760C2124938500FB3549 /* libHxkNet_SDK_DemoTests */ = {
+		3897760C2124938500FB3549 /* libHxkNet_SDKTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 389776192124938500FB3549 /* Build configuration list for PBXNativeTarget "libHxkNet_SDK_DemoTests" */;
+			buildConfigurationList = 389776192124938500FB3549 /* Build configuration list for PBXNativeTarget "libHxkNet_SDKTests" */;
 			buildPhases = (
 				389776092124938500FB3549 /* Sources */,
 				3897760A2124938500FB3549 /* Frameworks */,
@@ -156,9 +166,9 @@
 			dependencies = (
 				3897760F2124938500FB3549 /* PBXTargetDependency */,
 			);
-			name = libHxkNet_SDK_DemoTests;
+			name = libHxkNet_SDKTests;
 			productName = libHxkNet_SDKTests;
-			productReference = 3897760D2124938500FB3549 /* libHxkNet_SDK_DemoTests.xctest */;
+			productReference = 3897760D2124938500FB3549 /* libHxkNet_SDKTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +191,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 389775F02124938500FB3549 /* Build configuration list for PBXProject "libHxkNet_SDK_Demo" */;
+			buildConfigurationList = 389775F02124938500FB3549 /* Build configuration list for PBXProject "libHxkNet_SDK" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -194,8 +204,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				389775F42124938500FB3549 /* libHxkNet_SDK_Demo */,
-				3897760C2124938500FB3549 /* libHxkNet_SDK_DemoTests */,
+				389775F42124938500FB3549 /* libHxkNet_SDK */,
+				3897760C2124938500FB3549 /* libHxkNet_SDKTests */,
 			);
 		};
 /* End PBXProject section */
@@ -225,7 +235,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3899205B21256BA2009AD5AA /* WebDeviceList.m in Sources */,
 				389775FD2124938500FB3549 /* ViewController.m in Sources */,
+				3899206321256BF7009AD5AA /* WebDataRequest.m in Sources */,
 				389776082124938500FB3549 /* main.m in Sources */,
 				389775FA2124938500FB3549 /* AppDelegate.m in Sources */,
 			);
@@ -244,7 +256,7 @@
 /* Begin PBXTargetDependency section */
 		3897760F2124938500FB3549 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 389775F42124938500FB3549 /* libHxkNet_SDK_Demo */;
+			target = 389775F42124938500FB3549 /* libHxkNet_SDK */;
 			targetProxy = 3897760E2124938500FB3549 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -422,7 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ios.zh.libHxkNet-SDKTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libHxkNet_SDK_Demo.app/libHxkNet_SDK_Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libHxkNet_SDK.app/libHxkNet_SDK";
 			};
 			name = Debug;
 		};
@@ -437,14 +449,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ios.zh.libHxkNet-SDKTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libHxkNet_SDK_Demo.app/libHxkNet_SDK_Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libHxkNet_SDK.app/libHxkNet_SDK";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		389775F02124938500FB3549 /* Build configuration list for PBXProject "libHxkNet_SDK_Demo" */ = {
+		389775F02124938500FB3549 /* Build configuration list for PBXProject "libHxkNet_SDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				389776142124938500FB3549 /* Debug */,
@@ -453,7 +465,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		389776162124938500FB3549 /* Build configuration list for PBXNativeTarget "libHxkNet_SDK_Demo" */ = {
+		389776162124938500FB3549 /* Build configuration list for PBXNativeTarget "libHxkNet_SDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				389776172124938500FB3549 /* Debug */,
@@ -462,7 +474,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		389776192124938500FB3549 /* Build configuration list for PBXNativeTarget "libHxkNet_SDK_DemoTests" */ = {
+		389776192124938500FB3549 /* Build configuration list for PBXNativeTarget "libHxkNet_SDKTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3897761A2124938500FB3549 /* Debug */,

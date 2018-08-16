@@ -11,7 +11,6 @@
 
 @interface ViewController ()<HxkWebPocDelegate>
 {
-HxkWebProc* web;
 }
 @end
 
@@ -20,8 +19,7 @@ HxkWebProc* web;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    web=[[HxkWebProc alloc] init];
-    web.delegate=self;
+
 }
 
 
@@ -29,14 +27,5 @@ HxkWebProc* web;
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
--(void) HxkWebProcBegin_cb:(NSURL*)url
-{}
--(void) HxkWebProcCookies_cb:(NSURL*)url :(NSString*)cookie
-{}
--(void) HxkWebProcData_cb:(NSURL*)url :(NSData*)data
-{}
--(void) HxkWebProcFail_cb:(NSURL*)url
-{}
 
 @end

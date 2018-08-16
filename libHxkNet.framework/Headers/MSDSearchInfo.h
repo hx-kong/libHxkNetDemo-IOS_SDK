@@ -20,3 +20,5 @@
 @property(nonatomic,assign)  unsigned long dwLastCheckTime;
 
 @end
+
+
