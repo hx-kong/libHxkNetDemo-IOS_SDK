@@ -18,6 +18,8 @@
 @property(nonatomic,assign)     int port;
 //最后一次探测时间
 @property(nonatomic,assign)  unsigned long dwLastCheckTime;
+//是否在线
+@property(nonatomic,assign)  BOOL isOnline;
 
 @end
 
