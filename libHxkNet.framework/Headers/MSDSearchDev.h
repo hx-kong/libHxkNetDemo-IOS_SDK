@@ -21,7 +21,7 @@
 
 //广播端口
 #define  MSD_BROADCAST_BIND_PORT     2288
-#define  MSD_MULTIP_ADDR                     "228.0.0.8"    //组播地址
+#define  MSD_MULTIP_ADDR                     "224.0.0.1"    //组播地址
 
 
 //数据回调
